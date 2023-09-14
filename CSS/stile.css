@@ -1,9 +1,3 @@
-@font-face {
-  src: url(Audiowide-regular.ttf);
-  /*speriamo funzioni sob sob*/
-  font-family: "Audiowide", sans-serif;
-}
-
 header {
   font-family: 'Audiowide', cursive;
   display: grid;
@@ -37,7 +31,7 @@ h3 {
 }
 
 h4 {
-  font-family: 'Audiowide', cursive;
+  font-family: 'Raleway', sans-serif;
   font-size: 26px;
   color: #A54141;
 }
@@ -132,28 +126,32 @@ body {
   background-color: #E1D9C6
 }
 
-body main h4 a { /*si riferisce all'ultimo elemento dentro tutti quegli altri*/
+body main h4 a {
+  /*si riferisce all'ultimo elemento dentro tutti quegli altri*/
   display: flex;
   justify-content: center;
   font-size: 23px;
-  color:#000000;
+  color: #000000;
   text-decoration: none;
 }
 
-body main h4 { /*si riferisce all'ultimo elemento dentro tutti quegli altri*/
+body main h4 {
+  /*si riferisce all'ultimo elemento dentro tutti quegli altri*/
   margin: 20px;
 }
 
 body main h4 a:hover {
-  color:#D66058;
+  color: #D66058;
 }
 
 p {
+  font-family: 'Raleway', sans-serif;
   font-size: 24px;
   display: flex;
 }
 
 li {
+  font-family: 'Raleway', sans-serif;
   font-size: 24px;
   list-style-type: disclosure-closed;
 }
@@ -180,7 +178,7 @@ img {
 main {
   /*IL CONTENUTO PRINCIPALE DELLA PAGINA prende da sotto la nav fino a prima del footer*/
   margin: auto;
-  width: 60%;
+  width: 40%;
 }
 
 .disposizionesocial {
@@ -217,15 +215,15 @@ main {
   margin-left: 2%;
 }
 
-.scritteorizzontali{
+.scritteorizzontali {
   display: flex;
-  color:#ffffff
+  color: #ffffff
 }
 
 .orizzonte {
   /*comportamento del contenitore che contiene le mini categorie per ora solo presenti nella HOME*/
   display: flex;
-  color:#ffffff;
+  color: #ffffff;
 }
 
 .contenitore2 {
@@ -241,14 +239,14 @@ main {
 
 .titolocategorie {
   margin: 0%;
-  width:48%;
+  width: 48%;
   background-color: #A54141;
   margin-right: auto;
 }
 
 .titolocategorie2 {
   margin: 0%;
-  width:48%;
+  width: 48%;
   background-color: #A54141;
 }
 
@@ -261,7 +259,6 @@ main {
 
 .centronomi {
   margin: auto;
-  max-width: 36%;
 }
 
 footer {
@@ -272,7 +269,8 @@ footer {
 }
 
 footer p {
-  font-family: 'Audiowide', cursive;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
   color: white;
   margin-left: 4%;
 }
