@@ -163,16 +163,8 @@ li::marker {
 
 img {
   /*influisce su TUTTE LE IMMAGINI ESISTENTI*/
-  max-width: 50%;
   /*removibile se si assegna una classe ad ogni immagine*/
-}
-
-.title {
-  font-size: 60px;
-  position: absolute;
-  padding-left: 50%;
-  padding-top: 8%;
-  color: #ffffff;
+  max-width: 100%;
 }
 
 main {
@@ -191,16 +183,6 @@ main {
   padding-left: 4%;
   padding-top: 8%;
   max-width: 11%;
-}
-
-.homepageimg {
-  /*per ora è coinvolta solamente l'immagine BANNER della HOME*/
-  max-width: 100%;
-}
-
-.imgbanner {
-  /*per ora è coinvolta solamente la posizione cibi*/
-  max-width: 65%;
 }
 
 .contenitoreCategorie {
