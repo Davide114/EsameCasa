@@ -2,8 +2,8 @@ header {
   font-family: 'Audiowide', cursive;
   display: grid;
   /*naturalmente si adatta se la pagina diventa */
-  background-color: #D66058
-    /*colore testata*/
+  background-color: #D66058;
+  /*colore testata*/
 }
 
 header h1 {
@@ -78,7 +78,6 @@ nav {
   position: absolute;
   font-size: 20px;
   background-color: #BF4444;
-  min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
@@ -96,7 +95,7 @@ nav {
 }
 
 .dropdown-content a:hover {
-  background-color: #A54141;
+  background-color: #a54141;
 }
 
 .dropdown:hover .dropdown-content {
@@ -107,7 +106,7 @@ nav {
   background-color: #A54141;
 }
 
-header a {
+a {
   /*tocca solamente i link dentro header*/
   color: white;
   text-decoration: none;
@@ -185,34 +184,6 @@ main {
   max-width: 11%;
 }
 
-.contenitoreCategorie {
-  /*comportamento del contenitore che contiene le mini categorie per ora solo presenti nella HOME*/
-  display: flex;
-  margin-right: 2%;
-}
-
-.contenitoreCategorie2 {
-  /*comportamento del contenitore che contiene le mini categorie per ora solo presenti nella HOME*/
-  display: flex;
-  margin-left: 2%;
-}
-
-.scritteorizzontali {
-  display: flex;
-  color: #ffffff
-}
-
-.orizzonte {
-  /*comportamento del contenitore che contiene le mini categorie per ora solo presenti nella HOME*/
-  display: flex;
-  color: #ffffff;
-}
-
-.contenitore2 {
-  /*comportamento DEL CONTENITORE che contiene LE IMMAGINI PRESENTI IN APPARTAMENTI*/
-  display: flex;
-}
-
 .imgappartamenti {
   max-width: 45%;
   /*TEMPORANEO è stato messo perchè altrimenti occupavano troppo il margine di sinistra e violavano lo spazio fuori dal main*/
@@ -221,15 +192,27 @@ main {
 
 .titolocategorie {
   margin: 0%;
-  width: 48%;
+  color: #ffffff;
+  padding-left: 1%;
   background-color: #A54141;
-  margin-right: auto;
 }
 
-.titolocategorie2 {
+.descrizione {
+  color: #ffffff;
   margin: 0%;
-  width: 48%;
-  background-color: #A54141;
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: #b74949;
+}
+
+.minidiv {
+  display: flex;
+  margin-bottom: 4%;
+}
+
+.imgcategorie {
+  max-width: 40%;
 }
 
 .minicategorie {
@@ -266,4 +249,99 @@ footer a {
 
 .marginif {
   margin-bottom: 0%;
+}
+
+@media screen and (max-width: 814px) {
+  header {
+    font-family: 'Audiowide', cursive;
+    display: grid;
+    background-color: #da6900b6;
+  }
+
+  header p {
+    /*tocca solamente i paragrafi dentro header*/
+    font-size: 2vw;
+  }
+
+  header h1 {
+    font-size: 4.2vw;
+    margin-bottom: 0;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+  }
+
+  h2 {
+    font-family: 'Audiowide', cursive;
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    color: #a85a10b6;
+  }
+
+  h3 {
+    font-family: 'Audiowide', cursive;
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    color: #a85a10b6;
+  }
+
+  h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3vw;
+    color: #a85a10b6;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    border-top: solid #a85a10b6 6px;
+    /*funge come il padding*/
+    background-color: #e09248b6;
+    /*colore di tutta la navigation bar che sta dentro l'header*/
+  }
+
+  .dropbtn {
+    background-color: #e09248b6;
+    font-size: 2vw;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    font-size: 2vw;
+    background-color: #b7691e;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #a85a10b6;
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: #b7691e;
+  }
+
+  p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2vw;
+    display: flex;
+  }
+
+  li {
+    font-size: 2vw;
+  }
+
+  .separatore {
+    border: solid #a85a10b6 3px;
+  }
+
+  footer p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2vw;
+    color: white;
+    margin-left: 4%;
+  }
 }
