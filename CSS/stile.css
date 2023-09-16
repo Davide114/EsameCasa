@@ -194,7 +194,7 @@ main {
   margin: 0%;
   color: #ffffff;
   padding-left: 1%;
-  background-color: #A54141;
+  background-color: #a54141;
 }
 
 .descrizione {
@@ -251,7 +251,7 @@ footer a {
   margin-bottom: 0%;
 }
 
-@media screen and (max-width: 814px) {
+@media screen and (max-width: 1024px) {
   header {
     font-family: 'Audiowide', cursive;
     display: grid;
@@ -281,16 +281,21 @@ footer a {
 
   h3 {
     font-family: 'Audiowide', cursive;
-    font-size: 3vw;
+    font-size: 2vw;
     display: flex;
     justify-content: center;
     color: #a85a10b6;
   }
 
   h4 {
-    font-family: 'Raleway', sans-serif;
     font-size: 3vw;
     color: #a85a10b6;
+  }
+
+  body main h4 a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2vw;
+    color: #000000;
   }
 
   nav {
@@ -300,6 +305,19 @@ footer a {
     /*funge come il padding*/
     background-color: #e09248b6;
     /*colore di tutta la navigation bar che sta dentro l'header*/
+  }
+
+  .titolocategorie {
+    font-size: 2vw;
+    background-color: #a85a10b6;
+  }
+
+  .descrizione {
+    font-size: 1vw;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #b7691e;
   }
 
   .dropbtn {
@@ -326,16 +344,25 @@ footer a {
 
   p {
     font-family: 'Raleway', sans-serif;
-    font-size: 2vw;
+    font-size: 3vw;
     display: flex;
   }
 
   li {
-    font-size: 2vw;
+    font-size: 3vw;
+  }
+
+  li::marker {
+    /*per colorare i punti di una lista  si esatto si chiamano marker*/
+    color: #a85a10b6;
+  }
+
+  .flusso {
+    display: flex;
   }
 
   .separatore {
-    border: solid #a85a10b6 3px;
+    border: solid #a85a10b6 1.5px;
   }
 
   footer p {
