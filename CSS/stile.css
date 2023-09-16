@@ -268,25 +268,25 @@ footer a {
 
   h2 {
     font-family: 'Audiowide', cursive;
-    font-size: 3vw;
+    font-size: 5vw;
     display: flex;
     justify-content: center;
   }
 
   h3 {
     font-family: 'Audiowide', cursive;
-    font-size: 2vw;
+    font-size: 5vw;
     display: flex;
     justify-content: center;
   }
 
   h4 {
-    font-size: 3vw;
+    font-size: 4vw;
   }
 
   body main h4 a {
     font-family: 'Raleway', sans-serif;
-    font-size: 2vw;
+    font-size: 4vw;
     color: #000000;
   }
 
@@ -323,12 +323,12 @@ footer a {
 
   p {
     font-family: 'Raleway', sans-serif;
-    font-size: 3vw;
+    font-size: 4vw;
     display: flex;
   }
 
   li {
-    font-size: 3vw;
+    font-size: 4vw;
   }
 
   .flusso {
