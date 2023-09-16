@@ -223,7 +223,7 @@ main {
 
 footer {
   display: grid;
-  margin-top: 10%;
+  margin-top: 21%;
   /*temporaneo da rimuovere quando c'è più contenuto che farà scendere il footer automaticamente*/
   background-color: #434343;
 }
@@ -247,11 +247,6 @@ footer a {
 }
 
 @media screen and (max-width: 1024px) {
-  header {
-    font-family: 'Audiowide', cursive;
-    display: grid;
-    background-color: #da6900b6;
-  }
 
   header p {
     /*tocca solamente i paragrafi dentro header*/
@@ -276,7 +271,6 @@ footer a {
     font-size: 3vw;
     display: flex;
     justify-content: center;
-    color: #a85a10b6;
   }
 
   h3 {
@@ -284,12 +278,10 @@ footer a {
     font-size: 2vw;
     display: flex;
     justify-content: center;
-    color: #a85a10b6;
   }
 
   h4 {
     font-size: 3vw;
-    color: #a85a10b6;
   }
 
   body main h4 a {
@@ -301,15 +293,13 @@ footer a {
   nav {
     display: flex;
     justify-content: center;
-    border-top: solid #a85a10b6 6px;
+    border-top: solid #A54141 6px;
     /*funge come il padding*/
-    background-color: #e09248b6;
     /*colore di tutta la navigation bar che sta dentro l'header*/
   }
 
   .titolocategorie {
     font-size: 2vw;
-    background-color: #a85a10b6;
   }
 
   .descrizione {
@@ -317,11 +307,9 @@ footer a {
     padding-top: 2%;
     padding-left: 2%;
     padding-right: 2%;
-    background-color: #b7691e;
   }
 
   .dropbtn {
-    background-color: #e09248b6;
     font-size: 2vw;
   }
 
@@ -329,17 +317,8 @@ footer a {
     display: none;
     position: absolute;
     font-size: 2vw;
-    background-color: #b7691e;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-  }
-
-  .dropdown-content a:hover {
-    background-color: #a85a10b6;
-  }
-
-  .dropdown:hover .dropbtn {
-    background-color: #b7691e;
   }
 
   p {
@@ -352,17 +331,12 @@ footer a {
     font-size: 3vw;
   }
 
-  li::marker {
-    /*per colorare i punti di una lista  si esatto si chiamano marker*/
-    color: #a85a10b6;
-  }
-
   .flusso {
     display: flex;
   }
 
   .separatore {
-    border: solid #a85a10b6 1.5px;
+    border: solid #A54141 1.5px;
   }
 
   .disposizionesocial {
