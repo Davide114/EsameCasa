@@ -263,7 +263,7 @@ footer a {
 
   main {
     /*IL CONTENUTO PRINCIPALE DELLA PAGINA prende da sotto la nav fino a prima del footer*/
-    width: 60%;
+    width: 90%;
   }
 
   h2 {
@@ -303,7 +303,7 @@ footer a {
   }
 
   .descrizione {
-    font-size: 2vw;
+    font-size: 3vw;
     padding-top: 2%;
     padding-left: 2%;
     padding-right: 2%;
@@ -340,7 +340,7 @@ footer a {
   }
 
   .disposizionesocial {
-    font-size: 2vw;
+    font-size: 4vw;
   }
 
   .minisocial {
