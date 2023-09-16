@@ -134,11 +134,6 @@ body main h4 a {
   text-decoration: none;
 }
 
-body main h4 {
-  /*si riferisce all'ultimo elemento dentro tutti quegli altri*/
-  margin: 20px;
-}
-
 body main h4 a:hover {
   color: #D66058;
 }
@@ -271,6 +266,11 @@ footer a {
     justify-content: center;
   }
 
+  main {
+    /*IL CONTENUTO PRINCIPALE DELLA PAGINA prende da sotto la nav fino a prima del footer*/
+    width: 60%;
+  }
+
   h2 {
     font-family: 'Audiowide', cursive;
     font-size: 3vw;
@@ -313,7 +313,7 @@ footer a {
   }
 
   .descrizione {
-    font-size: 1vw;
+    font-size: 2vw;
     padding-top: 2%;
     padding-left: 2%;
     padding-right: 2%;
@@ -363,6 +363,15 @@ footer a {
 
   .separatore {
     border: solid #a85a10b6 1.5px;
+  }
+
+  .disposizionesocial {
+    font-size: 2vw;
+  }
+
+  .minisocial {
+    /*comportamenti SVG dei social nella sezione CONTATTACI*/
+    max-width: 11%;
   }
 
   footer p {
